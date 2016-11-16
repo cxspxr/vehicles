@@ -989,7 +989,7 @@ form label {
 #gtco-offcanvas {
   position: absolute;
   z-index: 1901;
-  width: 350px;
+  width: 300px;
   background: black;
   top: 0;
   right: 0;
@@ -998,11 +998,11 @@ form label {
   padding: 45px 40px 40px 40px;
   overflow-y: auto;
   display: none;
-  -moz-transform: translateX(350px);
-  -webkit-transform: translateX(350px);
-  -ms-transform: translateX(350px);
-  -o-transform: translateX(350px);
-  transform: translateX(350px);
+  -moz-transform: translateX(300px);
+  -webkit-transform: translateX(300px);
+  -ms-transform: translateX(300px);
+  -o-transform: translateX(300px);
+  transform: translateX(300px);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
