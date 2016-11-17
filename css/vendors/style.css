@@ -514,6 +514,12 @@ form label {
   .f-cover .display-tc h1 {
     font-size: 40px;
   }
+}@media screen and (max-width: 500px) {
+  #f-header .display-tc h1,
+  #f-counter .display-tc h1,
+  .f-cover .display-tc h1 {
+    font-size: 25px;
+  }
 }
 #f-header .display-tc h2,
 #f-counter .display-tc h2,
