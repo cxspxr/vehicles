@@ -514,11 +514,19 @@ form label {
   .f-cover .display-tc h1 {
     font-size: 40px;
   }
-}@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
   #f-header .display-tc h1,
   #f-counter .display-tc h1,
   .f-cover .display-tc h1 {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 250px) {
+  #f-header .display-tc h1,
+  #f-counter .display-tc h1,
+  .f-cover .display-tc h1 {
+    font-size: 17px;
   }
 }
 #f-header .display-tc h2,
@@ -588,7 +596,7 @@ form label {
 
 #f-features,
 #f-features-2,
-#f-testimonial,
+.f-testimonial,
 #f-services,
 #f-started,
 #f-footer,
@@ -599,7 +607,7 @@ form label {
 @media screen and (max-width: 768px) {
   #f-features,
   #f-features-2,
-  #f-testimonial,
+  .f-testimonial,
   #f-services,
   #f-started,
   #f-footer,
@@ -729,34 +737,44 @@ form label {
   color: #828282;
 }
 
-#f-testimonial {
+.f-testimonial:nth-child(even) {
   background: #efefef;
 }
-#f-testimonial .testimony-slide {
+.f-testimonial .testimony-slide {
   text-align: center;
 }
-#f-testimonial .testimony-slide span {
+.f-testimonial .testimony-slide span {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
   display: block;
 }
-#f-testimonial .testimony-slide figure {
+.f-testimonial .testimony-slide figure {
   margin-bottom: 10px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
-#f-testimonial .testimony-slide figure img {
-  width: 90px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+.f-testimonial .testimony-slide figure {
+  width: 600px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  overflow:hidden;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  border-radius: 10%;
 }
-#f-testimonial .testimony-slide blockquote {
+@media screen and (max-width: 650px) {
+
+.f-testimonial .testimony-slide figure {
+  width: 300px;
+} 
+}
+.f-testimonial .testimony-slide blockquote {
   border: none;
   margin: 30px auto;
   width: 50%;
@@ -764,21 +782,21 @@ form label {
   padding: 0;
 }
 @media screen and (max-width: 992px) {
-  #f-testimonial .testimony-slide blockquote {
+  .f-testimonial .testimony-slide blockquote {
     width: 100%;
   }
 }
-#f-testimonial .arrow-thumb {
+.f-testimonial .arrow-thumb {
   position: absolute;
   top: 40%;
   display: block;
   width: 100%;
 }
-#f-testimonial .arrow-thumb a {
+.f-testimonial .arrow-thumb a {
   font-size: 32px;
   color: #dadada;
 }
-#f-testimonial .arrow-thumb a:hover, #f-testimonial .arrow-thumb a:focus, #f-testimonial .arrow-thumb a:active {
+.f-testimonial .arrow-thumb a:hover, .f-testimonial .arrow-thumb a:focus, .f-testimonial .arrow-thumb a:active {
   text-decoration: none;
 }
 
