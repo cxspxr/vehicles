@@ -150,6 +150,7 @@
 		owl.owlCarousel({
 			items: 1,
 			loop: true,
+			autoplay: true,
 			margin: 0,
 			nav: false,
 			dots: true,
