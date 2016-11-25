@@ -782,10 +782,13 @@ form label {
   background-size: cover;
   background-position: center;
   overflow:hidden;
-  -webkit-border-radius: 10%;
+  -webkit-border-radius: 10%;                                                                                                                               
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   border-radius: 10%;
+}
+.docs .testimony-slide figure {
+  height:95vh;                                                                                                                                 
 }
 @media screen and (max-width: 650px) {
 
@@ -1035,6 +1038,8 @@ form label {
 .owl-carousel .owl-controls .owl-dot span {
   background: #e6e6e6;
 }
+
+
 .owl-carousel .owl-controls .owl-dot span:hover, .owl-carousel .owl-controls .owl-dot span:focus {
   background: #cccccc;
 }
